@@ -1,0 +1,9 @@
+[submodule "hyperbolics"]
+	path = src/hyperbolics
+	url = https://github.com/behavioral-data/hyperbolics.git
+[submodule "src/baselines/NeuralCodeTranslator"]
+	path = src/baselines/NeuralCodeTranslator
+	url = git@github.com:micheletufano/NeuralCodeTranslator.git
+[submodule "src/baselines/chai"]
+	path = src/baselines/chai
+	url = git@github.com:KTH/chai.git

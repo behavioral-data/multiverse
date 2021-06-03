@@ -1,0 +1,139 @@
+# created by Ge Zhang, Jan 31 2020
+#
+#
+
+# =========================== 20%=============================
+
+
+def cell_type(funcs, nodes=None, header=None):
+  # pdb.set_trace()
+  # print(header)
+  grams = [t.lower() for t in header.split() if t]
+  bi_grams = ['{} {}'.format(t, grams[i + 1])
+              for i, t in enumerate(grams[:-1])]
+
+  if sum([1 for n in nodes if (n["type"] == 'Import' or n["type"] == 'ImportFrom')]) / len(nodes) > 0.3:
+    return IMPORT
+
+  if any([g in bi_grams for g in ['logistic regression', 'machine learning', 'random forest']]) and len(grams) <= 3:
+    return MODEL
+  if 'cross validation' in bi_grams and len(grams) <= 3:
+    return EVALUATE
+
+  if any([f in funcs for f in model_funcs]):
+    return MODEL
+  if any([f in funcs for f in evaluate_funcs]):
+    return EVALUATE
+  if any([f in funcs for f in explore_funcs]):
+    return EXPLORE
+  if len(nodes) == 3 and nodes[1]["type"] == "Expr":
+    return EXPLORE
+
+  if any([f in funcs for f in wrangle_funcs]):
+    return WRANGLE
+    # print(h)
+  return STAGE_PAD
+
+
+wrangle_funcs = ['pandas.read_csv', 'pandas.read_csv.dropna', 'pandas.read_csv.fillna',
+                 'pandas.DataFrame.fillna', 'sklearn.datasets.load_iris', 'scipy.misc.imread',
+                 'scipy.io.loadmat', 'sklearn.preprocessing.LabelEncoder', 'scipy.interpolate.interp1d']
+
+explore_funcs = ['seaborn.distplot', 'matplotlib.pyplot.show', 'matplotlib.pyplot.plot', 'matplotlib.pyplot.figure',
+                 'seaborn.pairplot', 'seaborn.heatmap', 'seaborn.lmplot', 'pandas.read_csv.describe',
+                 'pandas.DataFrame.describe']
+# 'matplotlib.pyplot.xlabel', 'matplotlib.pyplot.ylabel'
+model_funcs = ['sklearn.cluster.KMeans',
+               'sklearn.decomposition.PCA',
+               'sklearn.naive_bayes.GaussianNB',
+               'sklearn.ensemble.RandomForestClassifier',
+               'sklearn.linear_model.LinearRegression',
+               'sklearn.linear_model.LogisticRegression',
+               'sklearn.tree.DecisionTreeRegressor',
+               'sklearn.ensemble.BaggingRegressor',
+               'sklearn.neighbors.KNeighborsClassifier',
+               'sklearn.naive_bayes.MultinomialNB',
+               'sklearn.svm.SVC',
+               'sklearn.tree.DecisionTreeClassifier',
+               'tensorflow.Session',
+               'sklearn.linear_model.Ridge',
+               'sklearn.linear_model.Lasso']
+
+evaluate_funcs = ['sklearn.metrics.confusion_matrix', 'sklearn.cross_validation.cross_val_score',
+                  'sklearn.metrics.mean_squared_error', 'sklearn.model_selection.cross_val_score', 'scipy.stats.ttest_ind', 'sklearn.metrics.accuracy_score']
+
+
+# ==================== 15% ==========================
+wrangle_funcs = [
+    'pandas.read_csv.dropna',
+    'sklearn.datasets.load_iris',
+    'pandas.read_csv',
+    'scipy.misc.imread',
+    'scipy.io.loadmat',
+    'scipy.interpolate.interp1d',
+]
+explore_funcs = ['seaborn.distplot', 'matplotlib.pyplot.figure',
+                 'seaborn.pairplot', 'seaborn.lmplot',
+                 'pandas.DataFrame.describe']
+
+model_funcs = ['sklearn.cluster.KMeans',
+               'sklearn.naive_bayes.GaussianNB',
+               'sklearn.ensemble.RandomForestClassifier',
+               'sklearn.linear_model.LinearRegression',
+               'sklearn.tree.DecisionTreeRegressor',
+               'sklearn.ensemble.BaggingRegressor',
+               'sklearn.neighbors.KNeighborsClassifier',
+               'sklearn.svm.SVC',
+               'tensorflow.Session',
+               'sklearn.linear_model.Ridge']
+
+evaluate_funcs = ['sklearn.metrics.confusion_matrix', 'sklearn.cross_validation.cross_val_score',
+                  'sklearn.metrics.mean_squared_error', 'sklearn.model_selection.cross_val_score',
+                  'scipy.stats.ttest_ind', 'sklearn.metrics.accuracy_score']
+
+
+# ======================= 10% ==========================
+
+wrangle_funcs = [
+    'pandas.read_csv.dropna']
+explore_funcs = ['seaborn.distplot',
+                 'seaborn.pairplot', 'seaborn.lmplot']
+
+model_funcs = ['sklearn.cluster.KMeans',
+               'sklearn.svm.SVC',
+               'tensorflow.Session']
+evaluate_funcs = ['sklearn.cross_validation.cross_val_score',
+                  'sklearn.model_selection.cross_val_score',
+                  'sklearn.metrics.accuracy_score']
+
+# ======================= 5% ==========================
+
+wrangle_funcs = [
+    'pandas.read_csv.dropna']
+explore_funcs = ['seaborn.distplot']
+
+model_funcs = ['sklearn.cluster.KMeans']
+
+evaluate_funcs = ['sklearn.metrics.accuracy_score']
+
+
+def cell_type(funcs, nodes=None, header=None):
+
+  grams = [t.lower() for t in header.split() if t]
+  bi_grams = ['{} {}'.format(t, grams[i + 1])
+              for i, t in enumerate(grams[:-1])]
+
+  if sum([1 for n in nodes if (n["type"] == 'Import' or n["type"] == 'ImportFrom')]) / len(nodes) > 0.3:
+    return IMPORT
+
+  if any([f in funcs for f in model_funcs]):
+    return MODEL
+  if any([f in funcs for f in evaluate_funcs]):
+    return EVALUATE
+  if any([f in funcs for f in explore_funcs]):
+    return EXPLORE
+
+  if any([f in funcs for f in wrangle_funcs]):
+    return WRANGLE
+
+  return STAGE_PAD

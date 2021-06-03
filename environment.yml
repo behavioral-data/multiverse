@@ -1,0 +1,28 @@
+name: RobustDataScience
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.7
+  - sentencepiece=0.1.91
+  - pytorch 
+  - torchvision 
+  - torchaudio
+  - networkx
+  - numpy
+  - click
+  - scikit-learn
+  - pandas
+  - nbformat
+  - tokenizers=0.8.1
+  - transformers=3.0.2
+  - diff-match-patch
+  - nltk
+  - flake8
+  - pip
+  - pip:
+    - rouge
+    - wandb
+    - asttokens
+prefix: /homes/gws/mikeam/anaconda3/envs/RobustDataScience

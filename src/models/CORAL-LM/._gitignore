@@ -1,0 +1,6 @@
+*.dirlock
+*.pyc
+*.ipynb_checkpoints/*
+analysis/.ipynb_checkpoints/*
+.vscode/*
+analysis/dask-worker-space/*
