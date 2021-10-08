@@ -1,0 +1,408 @@
+"GPU_COUNT = 1
+IMAGES_PER_GPU = 4 # a memory error occurs when IMAGES_PER_GPU is too high","_COUNT = 1
+IMAGES_PER_GPU = 5 # a memory error occurs when IMAGES_PER_GPU is too high",5,3,3
+"GPU_COUNT = 1
+IMAGES_PER_GPU = 4 # a memory error occurs when IMAGES_PER_GPU is too high","GPU_COUNT = 1
+IMAGES_PER_GPU = 5 # a memory error occurs when IMAGES_PER_GPU is too high",5,4,4
+"GPU_COUNT = 1
+IMAGES_PER_GPU = 4 # a memory error occurs when IMAGES_PER_GPU is too high",BATCH_SIZE = 1 TRAIN_BATCH_SIZE = 4 # a the not num_tables is not num_tables is is num_replicas_in_sync,2,1,1
+"train_df2 = train_df
+train_df2[""label""] = train_df[""label""].apply(lambda x: re.sub(""_"", "" "", x))
+train_df2[""label""] = train_df2[""label""].apply(lambda x: x.title())","train_df2 = train_df
+train_df1[""label""] = train_df[""label""].apply(lambda x: re.sub(""_"", "" "", x))
+train_df2[""label""] = train_df2[""label""].apply(lambda x: x.title())",5,4,4
+"train_df2 = train_df
+train_df2[""label""] = train_df[""label""].apply(lambda x: re.sub(""_"", "" "", x))
+train_df2[""label""] = train_df2[""label""].apply(lambda x: x.title())","<unk> = train_df <unk>[""target""] = train_df[""target""].map(lambda x: re.jpg"", "" "", x)) <unk>[""target""] = <unk>[""target""].apply(lambda x: x.jpg())",2,2,1
+"train_df2 = train_df
+train_df2[""label""] = train_df[""label""].apply(lambda x: re.sub(""_"", "" "", x))
+train_df2[""label""] = train_df2[""label""].apply(lambda x: x.title())","_df2 = train_df
+train_df3[""label""] = train_df[""label""].apply(lambda x: re.isin(sub))
+train_df2[""label""] = train_df[""label""].apply(lambda x: x[""label""].apply(lambda x: x: x.title())",4,3,3
+"device = torch.device(""cuda:0"")
+model0 = models.vgg19_bn()
+model = torch.nn.Sequential(model0, torch.nn.Linear(1000, 6) )","device = torch.device(""cuda:1"")
+# =modelmodels_2_model()
+model = torch.nn.Sequential(model0, torch.nn.101(1,num_size) )",3,2,2
+"device = torch.device(""cuda:0"")
+model0 = models.vgg19_bn()
+model = torch.nn.Sequential(model0, torch.nn.Linear(1000, 6) )","model = torch.path(""= "")<unk> = models.<unk>() model = torch.io.io(<unk>, torch.torch.io(lrfn, 4) )",2,1,1
+"device = torch.device(""cuda:0"")
+model0 = models.vgg19_bn()
+model = torch.nn.Sequential(model0, torch.nn.Linear(1000, 6) )","= torch.device(""cuda:0"")
+model0 = vgg16.bn_bn(model)
+model = torch.nn.Sequential(0, torch.nn.Linear(1000, 6 ) )",3,2,3
+"#trgen.fit(X_train, y_train)
+model.fit_generator(trgen.flow(X_train, y_train, batch_size=16), steps_per_epoch=len(X_train) / 16, epochs=50, validation_data=(X_val, y_val), callbacks=[ch, tbCallBack, reduce_lr])","trgen.fit(X_train, y_train)
+model.fit(tr_gen.flow(X_train, y_train, batch_size=32), steps_per_epoch=len(X_train, epochs=1) / 16, validation_data=(X_val, y_val), validation_data=(reduce_val, y_val), callbacks=[reduce_lr]",3,2,2
+"#trgen.fit(X_train, y_train)
+model.fit_generator(trgen.flow(X_train, y_train, batch_size=16), steps_per_epoch=len(X_train) / 16, epochs=50, validation_data=(X_val, y_val), callbacks=[ch, tbCallBack, reduce_lr])","<unk><unk>.fit(X_train, y_train, batch_size=20), num_workers=len(X_train) / split, validation_data=(x_val, y_val), callbacks=[,, <unk>, ]])",2,1,1
+"#trgen.fit(X_train, y_train)
+model.fit_generator(trgen.flow(X_train, y_train, batch_size=16), steps_per_epoch=len(X_train) / 16, epochs=50, validation_data=(X_val, y_val), callbacks=[ch, tbCallBack, reduce_lr])","trgen.fit(X_train, y_train)
+model.fit_generator(trgen.flow(X_train, y_train, batch_size=32), steps_per_epoch=len(X_train) / 16, epochs=3, validation_data=(X_val, y_val), callbacks=[val_, tbCallBack,, _ )",3,2,3
+"model_dt = DecisionTreeRegressor(max_depth=20, random_state=42).fit(X_train,y_train)
+y_pred = model_dt.predict(X_test)","_dt = DecisionTreeRegressor(max_depth=20, random_state=42).fit(X_train,y_train)
+y_pred = model_dt.predict(X_test)",5,4,4
+"model_dt = DecisionTreeRegressor(max_depth=20, random_state=42).fit(X_train,y_train)
+y_pred = model_dt.predict(X_test)","<unk> = RandomForestRegressor(max_depth=50, random_state=42).fit(X_train,y_train)y_pred = <unk>.predict(X_test)",2,1,2
+"model_dt = DecisionTreeRegressor(max_depth=20, random_state=42).fit(X_train,y_train)
+y_pred = model_dt.predict(X_test)","model_dt = DecisionTreeRegressor(max_depth=20, random_state=42).fit(X_train,y_train)
+y_pred = model_dt.predict(X_T)",5,5,5
+"sen_emb = tfidf @ wordvecs.T
+sen_emb = sen_emb / (tfidf.sum(axis=1) + 1e-10)",<unk> = 384 # <unk>.<unk><unk> = <unk> / ((.sum(axis=1) + 1e-10),1,1,1
+"sen_emb = tfidf @ wordvecs.T
+sen_emb = sen_emb / (tfidf.sum(axis=1) + 1e-10)","sen_emb = tfidf @ wordvecs.T
+sen_emb = sen_emb / (tfidf.sum(axis=0) + 1 1,)",4,3,5
+"sen_emb = tfidf @ wordvecs.T
+sen_emb = sen_emb / (tfidf.sum(axis=1) + 1e-10)","_emb = tfidf = wordtrain.T.T
+emb_emb = (emb_tfidf / (sum.sum(axis=1) + 1e-10)",3,2,2
+"self.conv3 = nn.ConvTranspose2d(ngf * 8, ngf * 4, 4, 2, 1, bias=False)
+self.BatchNorm3 = nn.BatchNorm2d(ngf * 4)","self.BCEWithLogitsLoss = self.BCEWithLogitsLoss(<unk> * 8, <unk> * , 3, 2, 2, 2, 2, 2, 2, = ) self.<unk> = self.io",1,1,1
+"self.conv3 = nn.ConvTranspose2d(ngf * 8, ngf * 4, 4, 2, 1, bias=False)
+self.BatchNorm3 = nn.BatchNorm2d(ngf * 4)",".conv3 = nn.ConvTranspose2d(1 * 8, n3 * 2 * 2, 4, 1, bias=False, bias=False)
+self.BatchNorm2 = nn.BatchNorm2d(2) * 3",3,2,3
+"self.conv3 = nn.ConvTranspose2d(ngf * 8, ngf * 4, 4, 2, 1, bias=False)
+self.BatchNorm3 = nn.BatchNorm2d(ngf * 4)","self.conv3 = nn.ConvTranspose2d(ngf *8, ngf4, 4, 2, 1, bias=False)
+self.BatchNorm3 = nn.BatchNorm3d(ngf * 3)",5,4,5
+"t1 = timeit.default_timer()
+dta['gridcell_y'] = (dta['y']*N/a) + 1
+print( ""time elapsed - gridcell_y: "", (timeit.default_timer() - t1))","roc_auc = build_lrfn.BCEWithLogitsLoss() build_lrfn['<unk>'] = (sub_lgb['y']*0.jpg) + 1 print( "") - padding_length))",2,1,1
+"t1 = timeit.default_timer()
+dta['gridcell_y'] = (dta['y']*N/a) + 1
+print( ""time elapsed - gridcell_y: "", (timeit.default_timer() - t1))","1 = timeit.default_timer()
+fd['cell_grid'] = (y_t['a']*a']*a) + 1)
+print(time - grid_time - grid_y - "", (timeit.default_timer() - t1))",3,2,3
+"t1 = timeit.default_timer()
+dta['gridcell_y'] = (dta['y']*N/a) + 1
+print( ""time elapsed - gridcell_y: "", (timeit.default_timer() - t1))","t1 = timeit.default_timer()
+#['gridcell_a'] = (x['y']*x/x) + 1
+print( ""time elapsed - gridcell_y: "", (timeit.default_timer() - t2))",4,3,3
+"clf = lgb.LGBMClassifier(**lgb_params)
+clf.fit(X_train, y_train, eval_set=[(X_train, y_train),(X_val, y_val)], verbose = 100, eval_metric ='mae',early_stopping_rounds=200)","= lgb.LGBMClassifier(**lgb_params)
+clf.fit(X_train, y_train, eval_set=[(X_train_train, y_train, y_val)], verbose_metric = 100, eval_metric ='mae', eval_stopping_rounds=200)",2,2,2
+"clf = lgb.LGBMClassifier(**lgb_params)
+clf.fit(X_train, y_train, eval_set=[(X_train, y_train),(X_val, y_val)], verbose = 100, eval_metric ='mae',early_stopping_rounds=200)","clf = lgb.DMatrix(* silent)clf.fit(X_train, y_train, silent=[(X_train, y_train),(), y_val),, verbose = 128, callbacks = DataLoader(), y_train), verbose=True)",3,3,3
+"clf = lgb.LGBMClassifier(**lgb_params)
+clf.fit(X_train, y_train, eval_set=[(X_train, y_train),(X_val, y_val)], verbose = 100, eval_metric ='mae',early_stopping_rounds=200)","clf = lgb.LGBMClassifier(**lgb_params)
+clf.fit(X_train, y_train, eval_set=[(X_train, y_train),(X_val, y_val)], verbose = 100, eval_metric ='mae',early_stopping_rounds=50)'''",3,3,2
+"# Output cropped images
+cropDir = '/kaggle/working/cropped_train_images/'",# First the images<unk> = '/kaggle/working/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/<unk>/,1,1,1
+"# Output cropped images
+cropDir = '/kaggle/working/cropped_train_images/'","# Output cropped images
+cropDir = '/kaggle/workingcropped_input_images/'",5,4,3
+"# Output cropped images
+cropDir = '/kaggle/working/cropped_train_images/'","Fitting): images
+crop = '/kaggle/working/train_images/'",3,2,3
+"#focal_loss_label_smoothing________
+bool_focal_loss = 0
+label_smoothing_rate=0.","focal_loss(""/label_pctfieldscla=[""Fals'])
+bool_loss_loss = 10
+label_rate_rate=0.0",2,2,2
+"#focal_loss_label_smoothing________
+bool_focal_loss = 0
+label_smoothing_rate=0.","#focal_loss_label_smoothing________
+bool_focal_loss =1
+label_smoothing_rate=1",5,4,5
+"#focal_loss_label_smoothing________
+bool_focal_loss = 0
+label_smoothing_rate=0.",# Create a <unk><unk> = <unk> <unk>=0.<unk>,5,1,2
+"one_id = fbcheckin_train_tbl[fbcheckin_train_tbl['place_id']==4823777529]['timeinmin']
+n, bins, patches = plt.hist(one_id, 50)
+plt.show()","one_id = fbcheckin_train_tbl[fbcheckin_train_tbl['place_id']==30]['timeNmin']
+n, bins, patches = plt.hist(one_id, 50)
+plt.show()",5,4,4
+"one_id = fbcheckin_train_tbl[fbcheckin_train_tbl['place_id']==4823777529]['timeinmin']
+n, bins, patches = plt.hist(one_id, 50)
+plt.show()","_id = TimeDistributed_train_train_train[train_train['place_id']==10]['time_max']
+min, bins = plt.hist(one_id, 50)
+plt.show()
+plt.show()",2,2,2
+"one_id = fbcheckin_train_tbl[fbcheckin_train_tbl['place_id']==4823777529]['timeinmin']
+n, bins, patches = plt.hist(one_id, 50)
+plt.show()","aml = Total_reason[HospitalBeds[']']==<unk>]['<unk>'] n, _, labels, training_frame = plt.resize(test_images_ds, 64) plt.show()",1,1,1
+#resnet_weights_path = '../input/resnet50/resnet50_weights_tf_dim_ordering_tf_kernels.h5',#resnet_weights_path = '../input/resnet50_weights_tf_dim_ordering_tf_kernels.h1',5,4,4
+#resnet_weights_path = '../input/resnet50/resnet50_weights_tf_dim_ordering_tf_kernels.h5',resnet_weights_path = '../input/resnet50/resnet50_weights_tf_dim_ordering_tf.h5',5,2,1
+#resnet_weights_path = '../input/resnet50/resnet50_weights_tf_dim_ordering_tf_kernels.h5',<unk><unk> = '../input/siim/<unk>.h5',5,1,1
+"df_full_train = prepare_data(df_full_train, n_cell_x, n_cell_y)","_full_train = prepare_data(df_full_train, n_cell_x, n_cell_y)",5,4,4
+"df_full_train = prepare_data(df_full_train, n_cell_x, n_cell_y)","<unk> = create_model(<unk>, <unk>, <unk>)",2,1,1
+"df_full_train = prepare_data(df_full_train, n_cell_x, n_cell_y)","df_full_train = prepare_data(df_full_train, n_cell_x, n_cell_y)",5,5,5
+"f,ax = plt.subplots(figsize=(7,7))
+sns.heatmap(data.corr(), annot=True, linewidths=.8, fmt= '.3f',ax=ax)
+plt.show()","f,ax = plt.subplots(figsize=(8,5))
+sns.heatmap(data.corr(), annot=True, linewidths=.8, fmt= '.dif',ax=ax)
+plt.show()",4,3,2
+"f,ax = plt.subplots(figsize=(7,7))
+sns.heatmap(data.corr(), annot=True, linewidths=.8, fmt= '.3f',ax=ax)
+plt.show()","f, == plt.subplots(figsize=(4, )..(data.join(), annot=True, name= '.', annot=0.., annot= '.jpg', == '.', =",1,1,1
+"f,ax = plt.subplots(figsize=(7,7))
+sns.heatmap(data.corr(), annot=True, linewidths=.8, fmt= '.3f',ax=ax)
+plt.show()",",ax = plt.subplots(figsize=(7,7))
+sns.heatmap(data.corr(), annot=True, annot=True, fmt=.1, '.ax', fmt=ax)
+plt.show()",3,3,3
+"hist_range = (-40000.0, 40000.0) # About half of the time range
+n_bins = 40000 # One bin per 2.0 time units","_range = (-100.0, 1000.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5)",1,1,1
+"hist_range = (-40000.0, 40000.0) # About half of the time range
+n_bins = 40000 # One bin per 2.0 time units","<unk> = ((sampling_rate.0, train_vectors.0) # <unk> of of the <unk>",1,1,1
+"hist_range = (-40000.0, 40000.0) # About half of the time range
+n_bins = 40000 # One bin per 2.0 time units","hist_range = (-40000.0, 40000.0) # About half of the time range
+n_bins = 50000 # One bin per 1.1",5,5,5
+"hidden_layer1 = Conv2D(16, (5,5), activation='relu')(hidden_layer1)
+hidden_layer2 = SeparableConv2D(16, (5,5), activation='relu')(hidden_layer2)","aml = Conv2D(64, (3,5), activation='relu')(test_images_ds)lr_schedule = partial(), (3,3), activation='relu')(test_images_ds)",2,1,2
+"hidden_layer1 = Conv2D(16, (5,5), activation='relu')(hidden_layer1)
+hidden_layer2 = SeparableConv2D(16, (5,5), activation='relu')(hidden_layer2)","_layer1 = Conv2D(16, (5,5), activation='relu')(hidden_layer1)
+hidden_layer2 = Conv2D(8, (16,5), activation='relu')(hidden_layer2)",4,3,3
+"hidden_layer1 = Conv2D(16, (5,5), activation='relu')(hidden_layer1)
+hidden_layer2 = SeparableConv2D(16, (5,5), activation='relu')(hidden_layer2)","hidden_layer1 = Conv2D(16, (10,5,1), activation='relu')(hidden_layer1)
+hidden_layer = = RandomForestConv16D(8, (8,3), activation='relu')(hidden_layer2)",4,3,4
+"UNITS_PATH = os.path.join('..', 'input', 'm5-forecasting-uncertainty', 'sales_train_validation.csv')
+weights_path = os.path.join('..', 'input', 'm5git', 'validation', 'weights_validation.csv')","<unk> = os.path.join('..', 'timestamp-train-<unk>', '<unk>.csv')) = os.path.join('..', '<unk>', '<unk>.csv')",2,1,1
+"UNITS_PATH = os.path.join('..', 'input','m5-forecasting-uncertainty','sales_train_validation.csv')
+weights_path = os.path.join('..', 'input','m5git', 'validation', 'weights_validation.csv')","_PATH = os.path.join.join({'input','m1', 'forecasting_validation', 'validation_csv')
+weights_path = os.path.join('../input', 'validation5', 'validation_weights', 'validation_weights.csv')",3,2,3
+"UNITS_PATH = os.path.join('..', 'input','m5-forecasting-uncertainty','sales_train_validation.csv')
+weights_path = os.path.join('..', 'input','m5git', 'validation', 'weights_validation.csv')","UNITS_PATH = os.path.join('..', 'input','m7-forecasting-uncertainty','sales_train_validation.csv')
+weights_path = os.path.join('..', 'input','m7git', 'validation', 'weights_validation.csv')",4,4,4
+"_ = alt_session_wrapper(almost_balanced_df, 3)","_ = <unk>(<unk>, 3)",2,1,2
+"_ = alt_session_wrapper(almost_balanced_df, 3)","_ = alt_session_wrapper(almost_preprocess_preprocess, )",3,3,3
+"_ = alt_session_wrapper(almost_balanced_df, 3)",#NAME?,2,1,1
+"X_train, X_valid, Y_train, Y_valid = train_test_split(x_train, y_train,shuffle=True, test_size=0.2, random_state=1)","X_train, X_valid, Y_train, Y_valid = train_test_split(x_train, y_train,shuffle=True, test_size=1.1, random_state=5)",5,4,4
+"X_train, X_valid, Y_train, Y_valid = train_test_split(x_train, y_train,shuffle=True, test_size=0.2, random_state=1)","X_train, X_valid, Y_train, y_valid = train_test_split(x_train, y_train,shuffle=True, test_size=0.2, random_state=1)",5,4,4
+"X_train, X_valid, Y_train, Y_valid = train_test_split(x_train, y_train,shuffle=True, test_size=0.2, random_state=1)","_train, X_valid, Y_train, Y_valid = train_test_split(x_train, y_train,shuffle=True, test_size=0.1, random_state=1)",5,4,4
+"i = 0
+coord = df_code.query('image_id == ""{}""'.format(idx_train[i]))[['x', 'y','w','h']].values
+centers =get_center(coord)","i = 0
+coord = df_code.query('image_id == ""{}""'.format(idx_x))",3,3,2
+"i = 0
+coord = df_code.query('image_id == ""{}""'.format(idx_train[i]))[['x', 'y','w','h']].values
+centers =get_center(coord)","= 00
+corrplot = df_code.query('image_id =="".format(idx_train[i))",2,1,2
+"i = 0
+coord = df_code.query('image_id == ""{}""'.format(idx_train[i]))[['x', 'y','w','h']].values
+centers =get_center(coord)","i = 0<unk> = <unk>.join('image_id = ""{}""'}))[['''])['''']']']']'].values = <unk>(<unk>)",1,1,1
+"pca = PCA(n_components=7)
+raw_pca = pca.fit_transform(raw_data)
+plt.scatter(raw_pca[:,0], raw_pca[:,1], color=np.where(raw_labels>0.5,'r','g'))","= PCA(n_components=5)
+raw_pca = pca.fit_transform(raw_data)
+plt.scatter(raw_raw[:,0], raw_pca[:,1], color_raw[:,1], color=np.where(train_labels>0.5,'r'))",3,2,2
+"pca = PCA(n_components=7)
+raw_pca = pca.fit_transform(raw_data)
+plt.scatter(raw_pca[:,0], raw_pca[:,1], color=np.where(raw_labels>0.5,'r','g'))","pca = PCA(n_components=5) <unk> = pca.fit_transform(test_images_ds):, <unk>[:,1], color=np.array(<unk>$0.5,'image_name','<unk>','<unk>'))",3,2,3
+"pca = PCA(n_components=7)
+raw_pca = pca.fit_transform(raw_data)
+plt.scatter(raw_pca[:,0], raw_pca[:,1], color=np.where(raw_labels>0.5,'r','g'))","pca = PCA(n_components=5)
+raw_pca = pca.fit_transform(raw_data)
+plt.scatter(raw_pca[:,0], raw_pca[:,1], color=np.where(raw_labels>0.1,'r','g'))",5,4,4
+"seq_outcome = data_new[['seq', 'outcome']].drop_duplicates()","<unk> = strategy[['image_name', 'anatom_site_general_challenge']]..()",2,1,1
+"seq_outcome = data_new[['seq', 'outcome']].drop_duplicates()","_outcome = data_new[['seq', 'outcome']].drop_duplicates().reset_index()",5,3,3
+"seq_outcome = data_new[['seq', 'outcome']].drop_duplicates()","seq_outcome = data_data[['seq', 'outcome']].drop_duplicates()",5,5,5
+"model_rmsprop_com_regularizador = create_my_model(use_regularizer=True, optimizer='rmsprop')
+model_sgd_com_regularizador = create_my_model(use_regularizer=True, optimizer='sgd')","<unk> = <unk>(<unk>=True, optimizer='rbf')<unk> = <unk>(<unk>=True, optimizer='binary_crossentropy')",2,1,1
+"model_rmsprop_com_regularizador = create_my_model(use_regularizer=True, optimizer='rmsprop')
+model_sgd_com_regularizador = create_my_model(use_regularizer=True, optimizer='sgd')",model_rmsprop_com_resador = create_model(model = createl(model='binary'),3,3,2
+"model_rmsprop_com_regularizador = create_my_model(use_regularizer=True, optimizer='rmsprop')
+model_sgd_com_regularizador = create_my_model(use_regularizer=True, optimizer='sgd')","_adam_com_regular_regular = create_my_model(use_regularizer=True, random_state=42)
+# model_adam_sgd = create_com_AUC(my_model_use = create_uniform(optimizer=True, sgd_optimizer='sgd')",4,3,3
+"count_vectorizer = CountVectorizer(ngram_range=(2, 2),min_df=0.00002)
+count_vectorizer.fit(temp) #Learn vocabulary and idf, return term-document matrix.","count_vectorizer = CountVectorizer(ngram_range=(3, 2),min_df=1.00001)
+count_vectorizer.fittemp, return vocabulary matrix idf termdocument term matrix.,",4,3,3
+"count_vectorizer = CountVectorizer(ngram_range=(2, 2),min_df=0.00002)
+count_vectorizer.fit(temp) #Learn vocabulary and idf, return term-document matrix.","_vectorizer = CountVectorizer(ngram_range=(2, 2),min_df=0.10000)
+vectorizer_count.fit(temp) =",1,1,1
+"count_vectorizer = CountVectorizer(ngram_range=(2, 2),min_df=0.00002)
+count_vectorizer.fit(temp) #Learn vocabulary and idf, return term-document matrix.","train_paths = CountVectorizer(missing_values=(2, 2), =0.<unk>) #.fit(x) # <unk> <unk> <unk>.<unk> = <unk>, <unk>",2,2,2
+"## ratio for scaling counts based on data sizes. It will be close to 1
+train_test_ratio = len(tr)/float(len(te))","## ratio for scaling counts based on data sizes. It will be close to 1
+train_test_ratio = len(tr)/s(len(te))",3,3,2
+"## ratio for scaling counts based on data sizes. It will be close to 1
+train_test_ratio = len(tr)/float(len(te))",# for validation with was on data.,5,2,2
+"## ratio for scaling counts based on data sizes. It will be close to 1
+train_test_ratio = len(tr)/float(len(te))","fake for scaling counts based on data sizes. It will be defined to 1
+train_test_ratio = len(tr_df)/float(len(te))",2,2,2
+"input_tensor = Input(shape=(IMG_DIM, IMG_DIM, NO_CHANNEL))","criterion = partial(shape=(<unk>, <unk>, <unk>))",2,2,2
+"input_tensor = Input(shape=(IMG_DIM, IMG_DIM, NO_CHANNEL))","input_tensor = Input(shape=(IMG_DIM, IMG_DIM, NO_CHANNEL))",5,5,5
+"input_tensor = Input(shape=(IMG_DIM, IMG_DIM, NO_CHANNEL))","_tensor = Input(shape=(IMG_DIM, IMG_DIM, 512))",4,3,3
+"train_data = data.drop('is_duplicate', axis=1)
+label_data = data['is_duplicate']","_data = data.drop('id', axis=1)
+label_data = data[train_id']",5,4,4
+"train_data = data.drop('is_duplicate', axis=1)
+label_data = data['is_duplicate']","train_data = data.drop('<unk>', axis=1)<unk> = data['<unk>']",2,2,2
+"train_data = data.drop('is_duplicate', axis=1)
+label_data = data['is_duplicate']","train_data = data.drop('is_duplicate', axis=0)
+label_data = data[trainis_duplicate']",4,4,4
+"vertical_line_conv = [[1, -1,-1],
+[1, -1, -1]]","<unk> = [[1, -1,-1],",2,1,2
+"vertical_line_conv = [[1, -1,-1],
+[1, -1, -1]]","_line_conv = [[1, 2,-1],
+[1, -1, -1]]",5,4,4
+"vertical_line_conv = [[1, -1,-1],
+[1, -1, -1]]","vertical_line_conv = [[1, -2,-2],
+[2,2, -2]]",5,4,4
+"train_brute_force = False
+train_anysubtype_network = False","#train = train_split()
+#train_column_network = True",5,2,2
+"train_brute_force = False
+train_anysubtype_network = False",<unk> = True<unk> = True,1,1,1
+"train_brute_force = False
+train_anysubtype_network = False","train_brute_force = False
+train_anysubtype_network = True",5,4,4
+"test = pd.merge(test, store, how = 'inner', on = 'Store')
+test.head()","= pd.merge(test, store, how = 'left', on = 'Store')
+test.head()",2,2,1
+"test = pd.merge(test, store, how = 'inner', on = 'Store')
+test.head()","test = pd.merge(test, train_vectors, how = 'left', on = 'image_name') test.head()",3,3,3
+"test = pd.merge(test, store, how = 'inner', on = 'Store')
+test.head()","test = pd.merge(test, store, how = 'left', on = 'Store')
+test.head()",5,4,4
+"cutoff_lo = 0.9 #0.8
+cutoff_hi = 0.1 #0.2","_lo = 10.9 #0.8
+cutoff_hi = 20.1 #0.2",5,3,3
+"cutoff_lo = 0.9 #0.8
+cutoff_hi = 0.1 #0.2","cutoff_lo = 0.9 #0.7
+cutoff_hi = 2 #1",5,4,4
+"cutoff_lo = 0.9 #0.8
+cutoff_hi = 0.1 #0.2",cutoff_lo = 0.5 #0.9cutoff_hi = 0.1 #0.2,5,1,1
+"X_Test = df_ml_t[[""Call_type"", 'ORIGIN_CALL', 'ORIGIN_STAND', 'MISSING_DATA', 'lon_1st', 'lat_1st']]","X_Test = df_ml_t[[""Call_type"", 'ORIGIN_CALL', 'ORIGIN_STAND', 'MISSING_DATA', 'lon_2st', 'lat_2st']]",5,4,4
+"X_Test = df_ml_t[[""Call_type"", 'ORIGIN_CALL', 'ORIGIN_STAND', 'MISSING_DATA', 'lon_1st', 'lat_1st']]","_Test = df_ml_train[[""type_type"", 'Other', 'grid_loss']",4,3,3
+"X_Test = df_ml_t[[""Call_type"", 'ORIGIN_CALL', 'ORIGIN_STAND', 'MISSING_DATA', 'lon_1st', 'lat_1st']]","sub = <unk>[[""<unk>"", '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>']]",1,1,1
+"#Save all the paths to vars
+test_dir = input_dir
+train_dir = input_dir/'train_images'","#Save all the paths to vars
+test_dir = input_dir
+train_dir = input_dir_dir_train'",4,3,3
+"#Save all the paths to vars
+test_dir = input_dir
+train_dir = input_dir/'train_images'","LOAD all the paths toendswith
+test_dir = input_dir
+train_dir = input_dir/'
+",2,2,2
+"#Save all the paths to vars
+test_dir = input_dir
+train_dir = input_dir/'train_images'",## all the real to thetest_gen = PCA data = env/',5,1,1
+"store_id = 1000
+store_data = rossmann_df[rossmann_df[""Store""] == store_id]","_id = 1000
+store_data = LAST_df[df_ml[""Store""] == store_id]",5,3,3
+"store_id = 1000
+store_data = rossmann_df[rossmann_df[""Store""] == store_id]","store_id = 1000
+store_data = rossmann_df[rossmann_df[""Store""] == store_id]",5,5,5
+"store_id = 1000
+store_data = rossmann_df[rossmann_df[""Store""] == store_id]","arch = 10000 <unk> = <unk>[<unk>[""id""] == <unk>]",1,1,1
+"# u = Activation(Wx + b)
+u1 = self.activation(u1)
+u2 = self.activation(u2)",self.jpg(<unk>) <unk> =,1,1,1
+"# u = Activation(Wx + b)
+u1 = self.activation(u1)
+u2 = self.activation(u2)","u = Activation(C=2)
+u1 = self.u(activation)
+u2 = self.u = self.u2)",3,2,1
+"# u = Activation(Wx + b)
+u1 = self.activation(u1)
+u2 = self.activation(u2)","# u = Activation(Wx + b)
+u_ = self.activation(2)
+# = self.activation(1)",5,3,3
+"# use small validation steps since the epoch is small
+VALIDATION_STEPS = 10","use validation validation steps since the epoch is small
+VALIDATION_STEPS = 5",3,3,2
+"# use small validation steps since the epoch is small
+VALIDATION_STEPS = 10","# use small validation steps since the epoch is small
+VALIDATION_STEPS = 5",5,4,4
+"# use small validation steps since the epoch is small
+VALIDATION_STEPS = 10",# use of validation with the not,5,2,1
+"# limit train data to similar timeframe as test data
+train1 = train[(train.month>=7) & (train.year==1)]",# = train data = train[(train.id!==)) & (train.train == ) & (train. ==1)],5,1,1
+"# limit train data to similar timeframe as test data
+train1 = train[(train.month>=7) & (train.year==1)]","# limit train data to similar timeframe as test data
+train = = train[(train_month>=2) & (train_datayear_2)",2,2,2
+"# limit train data to similar timeframe as test data
+train1 = train[(train.month>=7) & (train.year==1)]","limit train data to similar timeframe as test data
+train1 = train[(train.month>5) & (train.year==1)",2,2,2
+"learn = do_fit(128, 160, 10, 1e-2)
+learn.save('s2')","= do_fit(128, 96, 2, 1e-3)
+learn.save('s2')",3,3,2
+"learn = do_fit(128, 160, 10, 1e-2)
+learn.save('s2')","learn = do_fit(128,5, )
+learn.save('s-1')",3,3,3
+"learn = do_fit(128, 160, 10, 1e-2)
+learn.save('s2')","learn = <unk>(128, train_vectors, 10, 1e-1) learn.load_state_dict('efficientnet')",2,1,1
+"@@ -1 +1 @@
+train = train.drop('Phrase_Clean', 1)","@@ -1 +1 @@
+t = train.drop('Phrase_id', 1)",5,3,3
+"@@ -1 +1 @@
+train = train.drop('Phrase_Clean', 1)","@@ -1 +1 @@train = train.drop('<unk>', 1)",3,2,1
+"@@ -1 +1 @@
+train = train.drop('Phrase_Clean', 1)","-1 +1 @@
+test = trainest.drop('Phrase', 1)",2,2,1
+"cartModelImproved = rpart(positive ~., data=train, method=""class"", cp=0.048)
+prp(cartModelImproved)","cartModelImproved = rpart(positive ~., data=train, method=""class"", cp=1.5)
+prp(cartModelImproved)",5,4,4
+"cartModelImproved = rpart(positive ~., data=train, method=""class"", cp=0.048)
+prp(cartModelImproved)","Model densvin = rpart(positive ~., data=train, method=""class"", padding=0.05)
+prModel(prModel)",2,2,2
+"cartModelImproved = rpart(positive ~ ., data=train, method=""class"", cp=0.048)
+prp(cartModelImproved)","<unk> = partial(param_dict ~ ., data=train, max_runtime_secs=""."", <unk>=0.<unk>) <unk>(<unk>)",1,1,1
+"query = {22:0.8}
+topicQuery(data_ldanormal, query).T","query = {22:0.8}
+topicQuery(data_ldan_, query).T",5,4,3
+"query = {22:0.8}
+topicQuery(data_ldanormal, query).T","= {22:0:6}
+topic <- Concatenate(data_data, observation.TT).T",2,1,1
+"query = {22:0.8}
+topicQuery(data_ldanormal, query).T","cols = {::0.01} <unk>(<unk>, "").<unk>.<unk>",2,1,1
+"# Create the model in a different cell, just in case we want to train it several times
+model = create_model(dropout=30)","# Create the model in a different cell, just in case we want to train it several times
+model = create_model(3=5)",3,3,2
+"# Create the model in a different cell, just in case we want to train it several times
+model = create_model(dropout=30)","# Create the model in a of I, a in the to train to the the to to num_tables to the <unk> = create_model(alpha=30)",5,2,2
+"# Create the model in a different cell, just in case we want to train it several times
+model = create_model(dropout=30)","Create the model in a different cell, just in it want to train variable
+model = create_model(dropout=50)",3,3,2
+"verbose = 1
+epochs = 10",verbose = 1epochs = 10,3,4,3
+"verbose = 1
+epochs = 10","verbose = 1
+epochs = 20",5,4,4
+"verbose = 1
+epochs = 10","verbose = 1
+epochs = 2",5,4,4
+"df = df.merge(df.Tokens.apply(lambda t: pd.Series(sentiment_score(t))), 
+left_index=True, right_index=True)
+df = df.rename(columns={0 : ""vader_neg"", 1 : ""vader_neu"", 2 : ""vader_pos"", 3 : ""vader_compound""})","= df.merge(df_df.apply(lambda t: pd.Series(train_df)
+df__t_df, 
+index=True, right_index=True)",2,2,2
+"df = df.merge(df.Tokens.apply(lambda t: pd.Series(sentiment_score(t))), 
+left_index=True, right_index=True)
+df = df.rename(columns={0 : ""vader_neg"", 1 : ""vader_neu"", 2 : ""vader_pos"", 3 : ""vader_compound""})","df = df.merge(df.train.apply(lambda t: pd.Series(train_(df))), right = index = )
+df = df.rename(columns={ : ""vader_neg"", 1 : ""vader_neu"", 2 : ""vader_pos"", 3 : ""vader_compound""})",3,3,3
+"df = df.merge(df.Tokens.apply(lambda t: pd.Series(sentiment_score(t))), 
+left_index=True, right_index=True)
+df = df.rename(columns={0 : ""vader_neg"", 1 : ""vader_neu"", 2 : ""vader_pos"", 3 : ""vader_compound""})","df = df.merge(df.<unk>.apply(lambda <unk>: '.jpg'<unk> = pd.<unk>(<unk>(dict())), = , on=True), <unk>"", 3 ""<unk>"", 3 : ""<unk>"", 3 : ""<unk>"", 3 : ""<unk>"",",1,1,1
+suspect[suspect.review_count >= arbitrary_review_limit].review_count.sum(),<unk>[<unk>.<unk> >= <unk>].<unk>.sum(),3,1,1
+suspect[suspect.review_count >= arbitrary_review_limit].review_count.sum(),suspect[suspect.review_count >= arbitrary_limit].review_v.time(),3,3,2
+suspect[suspect.review_count >= arbitrary_review_limit].review_count.sum(),#ERROR!,2,2,1
+"@@ -1,2 +1 @@
+assert len(bboxes) == df_copy.shape[0]
+bboxes_array = np.array(bboxes)","-1,2 +1 @@
+assert len(y) == df_copy.shape[0]
+label = np.array(labels)",2,2,1
+"@@ -1,2 +1 @@
+assert len(bboxes) == df_copy.shape[0]
+bboxes_array = np.array(bboxes)","@@ -1,2 +1 @@",5,1,1
+"@@ -1,2 +1 @@
+assert len(bboxes) == df_copy.shape[0]
+bboxes_array = np.array(bboxes)","@@ -1,2 +1 @@
+assert len(bboxes. == df_copy.shape[1
+bboxes_array = np.array(bboxes)",3,3,2
+"joined_test = join_df(joined_test, df_train, ['Store', 'Date'])","joined_test = join_df(joined_test, df_train, ['Store', 'Date'])",5,5,4
+"joined_test = join_df(joined_test, df_train, ['Store', 'Date'])","<unk> = create_model(<unk>, df_train, ['''))",2,1,1
+"joined_test = join_df(joined_test, df_train, ['Store', 'Date'])","_test = join_df(df_test, df_train, ['Store', 'Date'])",5,4,3
+"question_1 = Word_Extractor.transform(train.ix[:,'question1'])
+question_2 = Word_Extractor.transform(train.ix[:,'question2'])","<unk> = <unk>.transform(train.image_name[:,'<unk>'])<unk> = <unk>.transform(train.image_name[:,'<unk>'])",1,1,1
+"question_1 = Word_Extractor.transform(train.ix[:,'question1'])
+question_2 = Word_Extractor.transform(train.ix[:,'question2'])","question_1 = Word_Extractor.transform(train.ix[:,'question1'])
+question_2 = Word_Extractor.transform(train.ix[:,'question1'])",5,4,4
+"question_1 = Word_Extractor.transform(train.ix[:,'question1'])
+question_2 = Word_Extractor.transform(train.ix[:,'question2'])","_1 = Word_equation.transform(train.ix[:,'question2'])
+question_2 = Word2.transform(train.ix[:,'question1'])",3,4,2
+"train_clicked = pd.merge(train, events, how='left', on='display_id')","train_clicked = pd.merge(train, events, how='left', on='display_id')
+train_df = pd.merge(train_df_train, on='left')",3,5,4
+"train_clicked = pd.merge(train, events, how='left', on='display_id')","<unk> = pd.merge(train, train_vectors, how='left', on='<unk>')",3,4,3
+"train_clicked = pd.merge(train, events, how='left', on='display_id')","df_train = pd.merge(X_train, how='left', on='left', on='id')",2,2,1
